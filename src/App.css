@@ -1,5 +1,78 @@
+#buttonContainer {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#chartComponent {
+  width: 400px;
+  height: 400px;
+}
+
+.ParkAnalytics {
+  border-style: solid;
+  border-color: cadetblue;
+  border-radius: 0.125cm;
+}
+
+.VisitCounts {
+  border-style: solid;
+  border-color: cadetblue;
+  border-radius: 0.125cm;
+}
+
+.PredictiveTrends {
+  border-style: solid;
+  border-color: cadetblue;
+  border-radius: 0.125cm;
+}
+
 .App {
   text-align: center;
+  height: auto;
+}
+
+.Dashboard {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  justify-content: space-between;
+  
+}
+
+.BottomComponents {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  height:auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+}
+
+.AdditionalMetrics {
+  padding: 5px;
+  min-width: 390px;
+  border-style: solid;
+  border-color: cadetblue;
+  border-radius: 0.125cm;
+}
+
+.FileUpload {
+  padding-top: 20px;
+  align-items: center;
+  width: 404px;
+  padding-bottom: 20px;
+}
+
+.wallClock {
+  padding: 5px;
+  width: 390px;
+  align-items: center;
+  border-style: solid;
+  border-color: cadetblue;
+  border-radius: 0.125cm;
 }
 
 .App-logo {
