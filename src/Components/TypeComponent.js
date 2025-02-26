@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as d3 from "d3";
 import { DataContext } from "./DataContext";
 import { Slider } from '@mui/material';
-import { AdditionalMetrics } from './AdditionalMetrics'
 
 const TypeComponent = () => {
     const { csvData } = React.useContext(DataContext);
